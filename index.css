@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+#location{
+    padding: 10vh;
+}
+
+.section-title{
+    font-size: 3rem !important;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 350px) {
+    #map{
+        width: 100vw;
+        height: 40vh;
+        margin: 0;
+        padding: 0;
+    }
+    .section-title{
+        font-size: 2rem !important;
+    }
+}

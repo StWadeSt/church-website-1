@@ -1,0 +1,12 @@
+.main-area {
+    background-image: url("./backgroundImage.jpg");
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .main-area {
+        background-image: url("./backgroundImage.jpg");
+        background-size: cover;
+
+    }
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.nav-title{
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 2.5rem !important;
+}
+
+@media (max-width: 768px) {
+    .nav-title{
+        font-size: 1.5rem !important;
+    }
+}
+@media (min-width: 768px) {
+    .nav-title{
+        font-size: 3rem !important;
+    }
+    .nav-item{
+        font-size: 1.5rem !important;
+    }
+}
+
+.navbar{
+    margin: 0 !important;
+    padding: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.nav-right{
+    min-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.nav-item{
+    padding: 5px 10px ;
+    margin: 10px;
+}
+
+.nav-item:hover{
+    transition: 0.4s;
+    color: aliceblue;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
