@@ -1,12 +1,13 @@
 .main-area {
-    background-image: url("./backgroundImage.jpg");
+    background-image: url("./images//backgroundImage.jpg");
     background-size: cover;
-}
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
 
-@media (max-width: 768px) {
-    .main-area {
-        background-image: url("./backgroundImage.jpg");
-        background-size: cover;
-
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
