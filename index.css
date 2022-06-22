@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: rgb(216, 214, 214) !important;
 }
 
 #location{
@@ -9,20 +10,49 @@ body{
 .section-title{
     font-size: 3rem !important;
 }
-.map{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#map{
+    margin: auto;
+    margin-top: 50px!important;
+    border-radius: 30px !important;
 }
 
 @media (min-width: 350px) {
     #map{
         width: 100vw;
         height: 40vh;
-        margin: 0;
+        margin: auto;
         padding: 0;
     }
     .section-title{
         font-size: 2rem !important;
     }
 }
+@media (min-width: 800px) {
+    #map{
+        width: 70vw;
+        height: 40vh;
+        margin: auto;
+        padding: 0;
+    }
+
+#events{
+    margin-top: 50px;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: rgb(87, 77, 95);
+    margin: 10px auto;
+}
+
+.event{
+    padding: 20px;
+}
+
+#about, #events{
+    padding: 20px 50px;
+    width: 100%;
+    height: 50vh;
+}
+

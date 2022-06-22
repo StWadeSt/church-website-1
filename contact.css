@@ -3,7 +3,7 @@
     margin: auto;
 }
 .main-area {
-    background-image: url("./images/backgroundImage.jpg");
+    background-image: url("./images/pexels-shelagh-murphy-1666816.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +15,9 @@
     padding-top: 30vh;
     
     text-decoration: underline;
-    font-size: 2.5em;
+    font-size: 7vmin;
+    color: aliceblue;
+
 }
 
 @media (max-width: 768px) {
@@ -37,3 +39,36 @@
 .contact-info{
     padding-top: 40px;
 }
+
+#contact-form{
+    margin: 4rem auto;
+}
+
+@media (max-width: 768px){
+    .row{
+        max-width: 90vw;
+    margin: auto !important;
+    }
+}
+
+.form-group>label{
+    margin: 20px auto;
+    font-weight: 600 !important;
+    font-size: 2rem;
+}
+
+.form-group>.form-control{
+    text-align: center;
+}
+
+input, textarea{
+    font-size: 15px;
+    padding: 10px !important;
+    border-radius: 20px !important;
+    border: none;
+}
+
+.btn-submit{
+    margin-top: 20px;
+}
+
