@@ -2,6 +2,9 @@ body{
     text-align: center;
     background-color: rgb(216, 214, 214) !important;
 }
+body, html{
+    overflow-x: hidden;
+}
 
 #location{
     padding: 10vh;
@@ -34,7 +37,7 @@ body{
         margin: auto;
         padding: 0;
     }
-
+}
 #events{
     margin-top: 50px;
 }
@@ -50,9 +53,50 @@ body{
     padding: 20px;
 }
 
-#about, #events{
-    padding: 20px 50px;
-    width: 100%;
-    height: 50vh;
+.event > .lead{
+    max-width: 90% !important;
+    text-align: center !important;
+    margin: auto;
 }
 
+#about{
+    padding-top: 50px !important;
+    background-image: url("./images//pexels-luis-quintero-2351719.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 50px;
+    width: 100%;
+    height: 70vh;
+    color: aliceblue;
+}
+
+
+.event-image{
+    width: 90%;
+    height: 400px;
+    object-fit: contain;
+    padding: 0;
+}
+
+@media (min-width: 1400px) {
+    .event-image{
+        margin-bottom: 40px;
+    }
+    .event{
+        margin: 40px auto !important;
+    }
+}
+
+@media (max-width: 465px) {
+    .event-image{
+        margin-bottom: 10px;
+    }
+    .event{
+        margin: 10px auto !important;
+    }
+}
+
+.designer{
+    margin-top: 20px !important ;
+}
