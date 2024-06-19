@@ -42,6 +42,37 @@ body, html{
     margin-top: 50px;
 }
 
+#events{
+    background-color: rgb(88, 88, 88);
+}
+
+.carousel-item{
+    height: 90svh !important;
+    width: 80%;
+}
+
+.carousal-item-content >img{
+    height: 15rem;
+    width: auto;
+    object-fit: contain;
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 465px) {
+    .carousal-item-content >img{
+        width: 100svw !important;
+        height: auto;
+        border-radius: 0%;
+    }
+}
+.event-description{
+    margin: auto;
+    justify-content: center;
+    text-align: center !important;
+    width: 80svw;
+}
+
 .line{
     width: 150px;
     height: 4px;
