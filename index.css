@@ -131,3 +131,8 @@ body, html{
 .designer{
     margin-top: 20px !important ;
 }
+
+#address, #email{
+    list-style: none;
+    text-decoration: none;
+}
