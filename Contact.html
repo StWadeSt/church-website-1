@@ -144,7 +144,14 @@
           //message => alert(message)
           console.log(message)
         );
-        return false;
+        form.addEventListener('submit', function (event) {
+          // Prevent the default form submission behavior
+          event.preventDefault();
+          // Do your form processing here (e.g., send data to a server)
+          console.log('Form submitted without page refresh');
+          // Optionally, you can reset the form
+          // form.reset();
+      });
       }
       /*function reset(){
         document.getElementsByClassName("message").value() = null;
