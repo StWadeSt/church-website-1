@@ -60,7 +60,7 @@
         <section class="form">
           <div class="row">
             <div class="col-md-12" id="contact-form">
-                <form onsubmit="sendEmail(); reset(); return false;">
+                <form onsubmit="sendEmail();return false;">
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input type="text" class="form-control" id="name" name="subject" placeholder="Enter name" required>
@@ -144,6 +144,7 @@
           //message => alert(message)
           console.log(message)
         );
+        return false;
       }
       /*function reset(){
         document.getElementsByClassName("message").value() = null;
