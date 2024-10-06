@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="send-mail.js"></script>
     <title>HGM - Contact Us</title>
     
     <link rel="stylesheet" href="contact.css">
@@ -136,10 +135,9 @@
           Username : "username",
           Password : "password",
           To : 'them@website.com',
-          From : document.getElementsByClassName("email").value(),
+          From : 'document.getElementsByClassName("email").value()',
           Subject : "New message from website",
-          Body : "Name: "+document.getElementsByClassName("name").value()
-                 +"Message: "+ document.getElementsByClassName("message").value()
+          Body : '"Name: "+document.getElementsByClassName("name").value()+"Message: "+ document.getElementsByClassName("message").value()'
         }).then(
           //message => alert(message)
           console.log(message)
